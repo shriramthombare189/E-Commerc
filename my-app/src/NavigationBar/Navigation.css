@@ -1,0 +1,84 @@
+/* Navigation Container */
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3c72; /* Rich blue */
+  padding: 12px 30px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo */
+.logo a {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navigation List */
+.navdiv ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Links */
+.navdiv ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.navdiv ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Buttons - Common */
+.sign-in-btn,
+.sign-up-btn {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Sign-in Button */
+.sign-in-btn {
+  background-color: #007bff;
+}
+
+/* Sign-up Button */
+.sign-up-btn {
+  background-color: #28a745;
+}
+
+/* Hover effects for buttons */
+.sign-in-btn:hover {
+  background-color: #0069d9;
+  transform: scale(1.05);
+}
+
+.sign-up-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Optional: Basket icon if needed */
+.basket-icon {
+  font-size: 18px;
+  color: white;
+  margin-left: 10px;
+}
